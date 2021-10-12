@@ -1,0 +1,172 @@
+* {
+  /* font-size: 10px; */
+  font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  font-size: 20px;
+}
+h1 {
+  font-size: 30px;
+  color: #434a54;
+}
+.page {
+  width: 78%;
+  margin: 30px auto;
+  box-shadow: 6px 6px 6px 6px #ccc;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  /* margin: auto; */
+  /* border: 1px solid gainsboro; */
+}
+header {
+  background: turquoise;
+  display: flex;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 30px;
+  color: white;
+  box-shadow: 0 8px 6px -6px #ccc;
+  /* margin: auto; */
+
+  flex-wrap: wrap;
+}
+header img {
+  width: 350px;
+  border-radius: 30px;
+  border: 5px solid white;
+  position: relative;
+  top: 60px;
+  box-shadow: 0 8px 6px -6px #ccc;
+}
+.btn {
+  color: grey;
+  text-decoration: none;
+  background: whitesmoke;
+  padding: 8px 18px;
+  border-radius: 20px;
+  /* margin: 50px; */
+  position: relative;
+  top: 15px;
+}
+.name {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.name p {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.name h1 {
+  margin-bottom: 10px;
+}
+.contact {
+  margin: 60px;
+}
+.about {
+  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+}
+.contact div {
+  padding-bottom: 10px;
+}
+.me {
+  margin-top: 50px;
+  width: 400px;
+}
+.me p {
+  font-size: 20px;
+}
+.contact {
+  font-size: 20px;
+}
+.skill {
+  margin-left: 25px;
+  margin-bottom: 50px;
+}
+.skill li {
+  /* font-size: 1.6rem; */
+  list-style: none;
+  font-family: sans-serif;
+  margin: 2rem 0;
+  width: 50%;
+}
+.bar {
+  background: #f0f0f0;
+  display: block;
+  height: 10px;
+  /* border: 1px solid black; */
+}
+.bar span {
+  height: 100%;
+  float: left;
+  background: #6665ee;
+}
+.html {
+  width: 90%;
+}
+.css {
+  width: 75%;
+}
+.javascript {
+  width: 75%;
+}
+
+.expeince {
+  margin: 25px;
+}
+.expeince h1 {
+  font-size: 30px;
+  display: inline;
+}
+.first {
+  margin: 50px;
+}
+.second {
+  margin: 50px;
+}
+
+.first span,
+.second span {
+  color: #6c757d;
+  font-size: 18px;
+}
+.date {
+  color: #6c757d;
+  margin: 10px 5px;
+}
+.education {
+  margin: 25px;
+}
+.education .first h1,
+.education .second h1 {
+  font-size: 28px;
+}
+
+footer {
+  background: #6c757d25;
+  padding: 50px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.fcontent {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.fa {
+  padding: 0 7px;
+}
